@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .h-100 {
+    height: 100%;
+  }
+  
+  .gradient-custom {
+    background: linear-gradient(45deg, #8e44ad, #3498db);
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .my-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+    
+    z-index: 1;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    color: #e74c3c;
+  }
+  
+  .quantity-input {
+    width: 60px;
+    text-align: center;
+  }
+  
+  .summary {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+  }
+  
+  .summary h5 {
+    font-size: 20px;
+  }
+  
+  .summary p {
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    /* background-color: #f8f9fa; */
+  }
+  
+  .cart-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cart-item {
+    flex: 2;
+    margin-right: 20px;
+    height: 550px;
+    overflow-y: scroll;
+
+  }
+  .cartimg{
+    height: 300px;
+    margin-right: 500px;
+  }
+  .cart-summary {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #ffffff; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 350px;
+  }
+  
